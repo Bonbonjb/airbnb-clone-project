@@ -19,9 +19,73 @@ This project is a backend implementation of an Airbnb-like application. The goal
 * **Celery** – Handles asynchronous tasks like sending emails or notifications.
 * **Redis** – In-memory store used for caching and session management.
 * **Docker** git add README.md
-git commit -m "docs: update project overview and tech stack in README"
-git push origin main– Containerization for consistent development and deployment.
 * **CI/CD Pipelines** – Automate testing, building, and deployment (e.g., GitHub Actions).
+
+##  Team Roles
+
+### *Product Owner (PO)*
+* **Responsibilities:**
+  * Defines the product vision and strategy.
+  * Manages the product backlog and prioritizes features.
+  * Ensures the final product meets customer requirements.
+  * Acts as the primary liaison between stakeholders and the development team.
+
+### *Business Analyst (BA)*
+* **Responsibilities:**
+  * Understands and analyzes business processes and requirements.
+  * Translates business needs into technical specifications.
+  * Facilitates communication between stakeholders and the development team.
+  * Ensures that the development aligns with business objectives.
+
+### *Project Manager (PM)*
+* **Responsibilities:**
+  * Plans, executes, and closes projects according to deadlines and budgets.
+  * Coordinates team activities and resources.
+  * Manages risks and resolves issues that arise during development.
+  * Communicates project status to stakeholders.
+
+### *UI/UX Designer*
+* **Responsibilities:**
+  * Designs user interfaces that are intuitive and user-friendly.
+  * Enhances user experience through research and testing.
+  * Creates wireframes, prototypes, and design specifications.
+  * Collaborates with developers to implement designs effectively.
+
+### *Software Architect*
+* **Responsibilities:**
+  * Designs the overall system architecture and selects appropriate technologies.
+  * Ensures scalability, security, and performance of the application.
+  * Guides the development team on architectural best practices.
+  * Reviews code and design decisions to maintain architectural integrity.
+
+### *Backend Developer*
+* **Responsibilities:**
+  * Implements server-side logic, databases, and APIs.
+  * Ensures data integrity and security.
+  * Integrates third-party services and APIs.
+  * Collaborates with frontend developers to deliver cohesive functionality.
+
+### *Frontend Developer*
+* **Responsibilities:**
+  * Develops client-side applications using modern frameworks.
+  * Implements responsive and interactive user interfaces.
+  * Integrates frontend with backend services.
+  * Ensures cross-browser compatibility and performance optimization.
+
+### *Quality Assurance (QA) Engineer*
+* **Responsibilities:**
+  * Develops and executes test plans to ensure software quality.
+  * Identifies, documents, and tracks bugs.
+  * Performs regression, performance, and security testing.
+  * Collaborates with developers to resolve issues and improve product quality.
+
+### *DevOps Engineer*
+* **Responsibilities:**
+  * Automates deployment processes and manages CI/CD pipelines.
+  * Monitors system performance and ensures uptime.
+  * Manages infrastructure and configuration.
+  * Implements security measures and compliance standards.
+
  
 
   
