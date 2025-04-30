@@ -212,6 +212,14 @@ Input validation helps prevent harmful inputs, such as SQL injection or cross-si
 Data privacy measures will be adopted to ensure that user information, such as personally identifiable information (PII) and payment information, is handled securely.  By following data protection standards (such as GDPR), we can ensure that users' privacy is respected and their data is protected from unauthorized access.
 
 
- 
+## CI/CD Pipeline
+
+### What is CI/CD?
+CI/CD stands for Continuous Integration and Continuous Deployment.  Continuous integration (CI) is the practice of automatically testing and merging new code changes into a shared repository, guaranteeing that the codebase is constantly deployable.  CD, on the other hand, automates the deployment of code to production following successful testing.
+
+
+### Importance of CI/CD Pipelines to the project
+* CI/CD pipelines are critical to the quality and speed of software development.
+* CI/CD automates the testing, building, and deployment processes, ensuring that code changes are completely validated before they are deployed to production. This helps to spot errors/bugs earlier, enhances teamwork, and speeds up the development process, decreasing the manual effort necessary for deployment and minimizing human error.
 
   
