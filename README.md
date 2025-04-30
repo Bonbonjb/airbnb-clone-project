@@ -125,6 +125,50 @@ This project is a backend implementation of an Airbnb-like application. The goal
 * Ensures code quality and reduces manual errors through continuous integration and delivery workflows.
 
 
+##  Database Design
+
+### 1. **Users**
+- `id`: Primary key
+- `username`: Unique name for login
+- `email`: User email (unique)
+- `password_hash`: Encrypted password
+- `role`: ‘guest’ or ‘host’
+
+### 2. **Properties**
+- `id`: Primary key
+- `user_id`: Foreign key referencing Users (host)
+- `title`: Property name
+- `description`: Property details
+- `price_per_night`: Rental price
+
+### 3. **Bookings**
+- `id`: Primary key
+- `user_id`: Foreign key referencing Users (guest)
+- `property_id`: Foreign key referencing Properties
+- `start_date`: Booking start date
+- `end_date`: Booking end date
+
+### 4. **Reviews**
+- `id`: Primary key
+- `user_id`: Foreign key referencing Users
+- `property_id`: Foreign key referencing Properties
+- `rating`: Numerical score (1–5)
+- `comment`: Review text
+
+### 5. **Payments**
+- `id`: Primary key
+- `booking_id`: Foreign key referencing Bookings
+- `amount`: Total amount paid
+- `payment_date`: Timestamp of transaction
+- `status`: Completed, Pending, Failed
+
+### **Entity Relationships**
+- A **User** can own multiple **Properties** (1:M)
+- A **User** can make multiple **Bookings** (1:M)
+- A **Booking** belongs to one **User** and one **Property** (M:1)
+- A **Property** can have multiple **Reviews** (1:M)
+- A **Booking** has one **Payment** (1:1)
+
 
  
 
