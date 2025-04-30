@@ -86,6 +86,44 @@ This project is a backend implementation of an Airbnb-like application. The goal
   * Manages infrastructure and configuration.
   * Implements security measures and compliance standards.
 
+##  Technology stack
+
+ This project employs a current web development stack to create a scalable, maintainable, and durable platform.
+
+
+ ### *Django* 
+* Django is a high-level Python web framework used for application backend development.  
+* It enables rapid development, has a clean architecture, and contains an ORM for database interaction.
+
+ ### *PostgreSQL* 
+* A robust open-source relational database system. 
+* Used to store and manage structured data such as user profiles, bookings, and property information.
+
+ ### *GraphQL*
+* This is a query language for APIs that enables customers to request specific data. 
+* In comparison to REST APIs, it allows for more efficient data fetching and reduces over-fetching.
+
+### *Docker*
+* This is a containerization platform packages and deploys applications in isolated environments. 
+*  Maintains consistency across the development, testing, and production environments.
+
+
+### *GitHub Actions*  
+* This CI/CD solution integrates with GitHub to automate testing and deployment operations.  
+* Helps to maintain code quality and streamline the delivery process.
+
+### *React (Optional Frontend Integration)* 
+* This is a JavaScript library for creating quick and responsive user interfaces.  
+* Can be used to build dynamic and interactive client-side components.
+
+### *Nginx*
+* This is a web server that can serve static files and function as a reverse proxy. 
+* Used for load balancing, caching, and improving application speed.
+
+ ### *Gunicorn* 
+* This is a Python WSGI HTTP server for UNIX platforms.  
+* Works with Django to run the backend application in production.
+
  
 
   
