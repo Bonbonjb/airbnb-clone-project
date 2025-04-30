@@ -205,7 +205,7 @@ Rate limitation eliminates misuse by limiting the amount of requests a user can 
 ### Encryption.
 Encryption protects sensitive data, such as user passwords and payment information, both during transmission (via HTTPS) and when kept in the database.  This stops unauthorized individuals from accessing or manipulating sensitive data.
 
-### Input Validation.
+### Input Validation.
 Input validation helps prevent harmful inputs, such as SQL injection or cross-site scripting (XSS), by verifying that all incoming data follows the required format.  It is critical for securing the system and preventing users from malicious behaviors that could jeopardize the platform's stability.
 
 ### Data Privacy.
