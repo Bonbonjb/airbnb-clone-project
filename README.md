@@ -222,4 +222,11 @@ CI/CD stands for Continuous Integration and Continuous Deployment.  Continuous i
 * CI/CD pipelines are critical to the quality and speed of software development.
 * CI/CD automates the testing, building, and deployment processes, ensuring that code changes are completely validated before they are deployed to production. This helps to spot errors/bugs earlier, enhances teamwork, and speeds up the development process, decreasing the manual effort necessary for deployment and minimizing human error.
 
+
+## Manual Review
+
+Before finalizing and deploying any substantial improvements to the Airbnb Clone project, a manual review will be carried out.  This step requires team members or appointed reviewers to manually inspect the codebase, documentation, and functionality to ensure that everything satisfies quality requirements.
+
+Manual reviews can identify issues that automated tests may overlook, such as UX difficulties, inconsistent naming, insufficient features, or logic errors.  It also guarantees that code follows project guidelines, encourages improved collaboration, and improves knowledge sharing among team members.  This layer of quality assurance is critical for maintaining a clean, secure, and user-friendly application.
+
   
