@@ -193,24 +193,22 @@ Data Optimization ensures that the platform operates efficiently by optimizing d
 
 ## API Security
 
-### Authentication
+### Authentication.
 Authentication guarantees that only verified users have access to specific areas of the program/application.  It demands users to verify their identity, which is usually done through username/password combinations or authentication tokens.  In our project, we will employ token-based authentication (JWT) to safely validate users.  This is critical for safeguarding sensitive information such as user data, bookings, and payment details.
 
 ### Authorization.
 Authorization determines what authenticated users are permitted to execute.  Following authentication, we utilize authorization to grant certain roles and permissions to users (for example, a regular user can book a property but only a host can manage their own properties).  This ensures that users can only take actions that are permitted, preventing unauthorized access to sensitive resources.
 
-### Rate Limiting
+### Rate Limiting.
 Rate limitation eliminates misuse by limiting the amount of requests a user can make to the API in a given time period.  This helps safeguard the backend from denial-of-service attacks and ensures that the application performs well even under high demand.  It is crucial for ensuring service availability and keeping malicious users from overwhelming the system.
-
 
 ### Encryption.
 Encryption protects sensitive data, such as user passwords and payment information, both during transmission (via HTTPS) and when kept in the database.  This stops unauthorized individuals from accessing or manipulating sensitive data.
 
-### Input Validation
+### Input Validation.
 Input validation helps prevent harmful inputs, such as SQL injection or cross-site scripting (XSS), by verifying that all incoming data follows the required format.  It is critical for securing the system and preventing users from malicious behaviors that could jeopardize the platform's stability.
 
-
-### Data Privacy
+### Data Privacy.
 Data privacy measures will be adopted to ensure that user information, such as personally identifiable information (PII) and payment information, is handled securely.  By following data protection standards (such as GDPR), we can ensure that users' privacy is respected and their data is protected from unauthorized access.
 
 
